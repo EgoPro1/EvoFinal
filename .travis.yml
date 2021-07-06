@@ -4,5 +4,3 @@ jdk:
 
 notifications:
   email: aloegocheaga@hotmail.com
-before_install:
-  - chmod +x mvnw
