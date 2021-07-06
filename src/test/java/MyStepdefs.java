@@ -7,14 +7,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class MyStepdefs {
 
     private int balance;
-    private int left;
+    private int left1;
     private int processed;
     private int stock;
 
     @Given("I have {int} beer cans and {int}")
     public void iHaveOpeningBalanceBeerCans(int balance,int left) {
         this.balance = balance;
-        this.left=left;
+        this.left1=left;
     }
 
     @And("I have drunk {int} beer cans")
